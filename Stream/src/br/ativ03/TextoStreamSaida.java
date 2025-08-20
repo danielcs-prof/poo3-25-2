@@ -10,6 +10,7 @@ public class TextoStreamSaida {
         String text = "Este é um exemplo de escrita em arquivo texto";
 
         try (Writer writer = new FileWriter(filePath)) {
+            writer.write(text);
 
         }catch(IOException e){
             e.printStackTrace();
