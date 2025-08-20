@@ -1,1 +1,1 @@
-Este é um exemplo de escrita em arquivo texto
+Este é um exemplo de escrita utilizando FileChannel.
